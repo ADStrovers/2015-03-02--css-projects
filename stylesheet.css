@@ -13,6 +13,9 @@ header {
 }
 
 .header-logo {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   width: 70%;
   height: 100%;
   display: inline;
@@ -31,6 +34,7 @@ header {
 }
 
 .came-from {
+  padding-top: 20px;
   text-transform: uppercase;
   color: #fff;
   text-align: center;

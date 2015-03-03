@@ -16,6 +16,7 @@ header {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  box-shadow: 1px 0 1px #222;
   width: 70%;
   height: 100%;
   display: inline;
@@ -25,6 +26,7 @@ header {
 }
 
 .header-button {
+  box-shadow: 1px 0 1px #222;
   display: inline;
   float: left;
   text-align: center;

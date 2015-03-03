@@ -85,6 +85,9 @@ p {
 .callout-section img {
   margin: 0 auto 20px;
   display: block;
+  width: 80%;
+  height: auto;
+  max-width: 360px;
   border-radius: 5px;
 }
 
@@ -125,3 +128,33 @@ footer {
 .footer-nav a:hover {
   text-decoration: underline;
 }
+
+button a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+  .callout-section img {
+    float: left;
+    margin: 1%;
+    width: 31.3%;
+    max-width: 500px;
+  }
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+  
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
